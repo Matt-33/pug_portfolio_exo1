@@ -1,0 +1,5 @@
+nav
+  ul
+    each item in menu
+      li(class=item.isActive ? 'nav-active' : '')
+        a(href=item.path)= item.title
